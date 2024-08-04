@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.chat {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    width: 350px;
+    height: 430px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    z-index: 1000; /* Ensures it stays on top */
+}
+
+
+
+header {
+    background: rgb(255,152,217);
+background: linear-gradient(59deg, rgba(255,152,217,1) 0%, rgba(227,166,128,1) 31%, rgba(233,219,151,1) 51%, rgba(232,209,183,1) 70%, rgba(255,151,225,1) 99%);
+    
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #f0f0f0;
+}
+
+section {
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #ff5733;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+
+footer {
+    background-color: #ff5733;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px; /* or any other value */
+    padding: 0 20px; /* adding 20px of padding */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(255,152,217);
+background: linear-gradient(59deg, rgba(255,152,217,1) 0%, rgba(255,151,225,1) 25%, rgba(251,236,178,1) 61%, rgba(255,241,200,1) 84%, rgba(230,225,200,1) 100%);
+    text-align: center;
+}
+section img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
